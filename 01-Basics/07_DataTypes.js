@@ -32,7 +32,19 @@ const myObj = {
 const myFunction = ()=>{
     return "Tushar";
 }
-console.log(typeof myFunction);
-console.log( typeof array);
-console.log( typeof myObj);
+// console.log(typeof myFunction);
+// console.log( typeof array);
+// console.log( typeof myObj);
 
+const object1 ={
+    name:"tushar",
+    email : "tiushar@gmail.com "
+
+}
+const object2 = object1;
+console.log(object1);
+console.log(object2);
+
+object2.email ="tushar@google.com"
+console.log(object1);
+console.log(object2);
